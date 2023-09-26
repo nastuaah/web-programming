@@ -26,7 +26,7 @@ const node_for_click_date_of_birth = document.getElementById("for_click_date_of_
 function change_date_of_birth(){
     const date_of_birth=document.getElementsByTagName('div')[7]
     console.log(date_of_birth.innerHTML)
-    date_of_birth.innerHTML="10.03.2004"
+    date_of_birth.innerHTML="15.03.2002"
 }
 node_for_click_date_of_birth.addEventListener("click",change_date_of_birth)
 
@@ -34,6 +34,6 @@ const node_for_click_date_of_issue = document.getElementById("for_click_date_of_
 function change_date_of_issue(){
     const date_of_issue=document.getElementsByTagName('div')[1]
     console.log(date_of_issue.innerHTML)
-    date_of_issue.innerHTML="17.04.2008"
+    date_of_issue.innerHTML="23.04.2017"
 }
 node_for_click_date_of_issue.addEventListener("click",change_date_of_issue)
