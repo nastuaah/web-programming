@@ -37,3 +37,6 @@ function change_date_of_issue(){
     date_of_issue.innerHTML="23.04.2017"
 }
 node_for_click_date_of_issue.addEventListener("click",change_date_of_issue)
+
+
+
