@@ -3,7 +3,7 @@ function insert_img(){
 
 const img = document.createElement('img');
 
-img.src = './photos/ph.jpeg';
+img.src = './seminar_2-3/ph.jpeg';
 img.alt = 'Описание изображения';
 img.height = '200';
 img.width='300';
