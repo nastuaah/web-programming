@@ -1,0 +1,65 @@
+<HTML lang="en">
+
+  <HEAD>
+     <META charset="UTF-8">
+    <TITLE>Числа</TITLE>
+  </HEAD>
+
+  <BODY bgcolor="#b1c9e8" text="white">
+
+    <H1>Четность или нечетность чисел</H1>
+    <HR>
+   <SCRIPT language=JavaScript>
+   <!--
+
+     function IsNum(num, a, b)
+     {
+       var ret = true; // возвращаемое значение
+       // проверка на пустую строку
+       if (num == "") ret = false;
+       else // проверка на цифры
+         for(var i=0; i<num.length; i++)
+           if(num.charAt(i)<"0" || num.charAt(i)>"9") {ret=false; break;}
+       // проверка на интервал
+       if (ret) ret = a<=parseInt(num,10) && parseInt(num,10)<=b;
+       return ret;
+     }
+
+     function FindNum() {
+         var a = 1;      // начало интервала
+         var b = 50;     // конец интервала
+         var answer = 0; // ответ пользователЯ
+
+         alert("Дан интервал чисел от " + a + " до " + b + ". Введите задуманное число!");
+
+         // цикл игры
+         while (answer != null) {
+             // ввод числа пользователЯ
+             answer = prompt("Число в [" + a + " , " + b + "]");
+
+             // проверка достоверности введенных данных
+
+             if (IsNum(answer, a, b)) {
+                 answer = parseInt(answer, 10);
+                 // анализ введенного пользователем числа
+                 if (answer % 2 == 0) {
+                     alert("Ваше число четное!")
+                 } else {
+                     alert("Ваше число нечетное!")
+                 }
+             } else {
+                 alert("Ошибка при вводе числа");
+                 answer = 0;
+             }
+         }
+     }
+     FindNum()
+
+    -->
+   </SCRIPT>
+    <P>
+      Игра закончена!
+     </p>
+  </BODY>
+
+</HTML>
