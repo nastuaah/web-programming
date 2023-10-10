@@ -1,0 +1,77 @@
+<HTML lang="ru">
+
+  <HEAD>
+    <META charset="UTF-8">
+    <TITLE>Четные числа промежутка</TITLE>
+  </HEAD>
+
+  <BODY bgcolor="#b1c9e8" text="white">
+
+    <H1>Четные числа промежутка</H1>
+    <HR>
+   <SCRIPT language=JavaScript>
+
+   <!--
+
+     function IsNum(a, b)
+     {
+       var ret = true; // возвращаемое значение
+       // проверка на пустую строку
+       if (a == "" || b=="") ret = false;
+       else // проверка на цифры
+         for(var i=0; i<b.length; i++)
+           if(a.charAt(i)<"0" || a.charAt(i)>"9" || b.charAt(i)<"0" || b.charAt(i)>"9" ) {ret=false; break;}
+       return ret;
+     }
+
+     function FindNum()
+     {
+       var a = 0;      // начало интервала
+       var b = 0;     // конец интервала
+
+       alert ("Введите границы интервала и увидите все четные числа, входящие в него!");
+
+       while (a!=null || b!=null && a<b)
+       {
+          // ввод чисел пользователя
+          a = prompt();
+          b = prompt();
+
+          // проверка на досрочное окончание игры
+          if (a == null || b==null) break;
+
+          // проверка достоверности введенных данных
+
+          if (IsNum(a, b))
+          {
+            a= parseInt(a,10);
+            b= parseInt(b,10);
+            // анализ введенных пользователем чисел
+
+            let arr = [];
+
+            for (let i = a; i <= b; i++) {
+                if (i % 2 == 0) {
+                   arr.push(i);
+                }
+            }
+            alert(arr);
+
+          }
+          else
+          {
+            alert ("Ошибка при вводе числа");
+            result = 0;
+          }
+       }
+     }
+
+     FindNum()
+    //-->
+   </SCRIPT>
+    <P>
+      Игра закончена!
+     </p>
+  </BODY>
+
+</HTML>
