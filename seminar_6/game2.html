@@ -19,8 +19,10 @@
        // проверка на пустую строку
        if (a == "" || b=="") ret = false;
        else // проверка на цифры
+         for(var i=0; i<a.length; i++)
+           if(a.charAt(i)<"0" || a.charAt(i)>"9") {ret=false; break;}
          for(var i=0; i<b.length; i++)
-           if(a.charAt(i)<"0" || a.charAt(i)>"9" || b.charAt(i)<"0" || b.charAt(i)>"9" ) {ret=false; break;}
+           if(b.charAt(i)<"0" || b.charAt(i)>"9") {ret=false; break;}
        return ret;
      }
 
@@ -61,7 +63,6 @@
           else
           {
             alert ("Ошибка при вводе числа");
-            result = 0;
           }
        }
      }
