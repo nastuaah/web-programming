@@ -4,7 +4,55 @@
     <meta charset="UTF-8">
     <title>Решение алгоритмической задачи через форму</title>
 </head>
+<style>
+    body{
+        background-color: #daebff;
+        font-family: "Raleway";
+        color: #54779d;
+    }
+    table{
+        border-color: transparent;
+    }
+</style>
 <body>
+<table style="align-content: center; width: 100%">
+    <tr>
+        <th colspan="4">
+            <h3 align="center" style="font-size: 25px">Решение алгоритмической задачи через формы</h3>
+            <link rel="stylesheet" href="style.css">
+            <p>Даны вещественные числа: А,В,С. Определить какому неравенству они соответствуют.
+            <br> Если соответствуют неравенству отправить на сервер.</br>
+            </p>
+            <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+            <input name="q" type="hidden" value="search">
+            <input name="formulation" type="hidden" value="">
+             <p>a: <input id="a" name="a" type="number" value=10></p>
+             <p>b: <input id="b" name="b" type="number" value=12></p>
+             <p>c: <input id="c" name="c" type="number" value=19></p>
+             <p>Pезультат решения: <input name="result" value="не определен"></p>
+             <p><input id="send" type="button" value="Отправить"></p>
+            </form>
+            <p id="result">Результаты вычислений: </p>
+            <script src="./js/form_abc.js"></script>
+        </th>
+    </tr>
+        <tr>
+     <link rel="stylesheet" href="style.css">
+        <th>
+            <button onclick="document.location='dom.html'">Паспорт фото </button>
+        </th>
+        <th>
+            <button onclick="document.location='passport.html'">Паспорт кнопки </button>
+        </th>
+        <th>
+            <button onclick="document.location='abc.html'">Задача АВС </button>
+        </th>
+        <th>
+            <button onclick="document.location='abc_form.html'">Задача АВС форма </button>
+        </th>
+    </tr>
+
+</table>
 
 </body>
 </html>
