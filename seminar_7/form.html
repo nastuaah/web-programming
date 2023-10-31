@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Онлайн-запись в ветеринарную клинику</title>
+</head>
+<style>
+    body{
+        background-color: #daebff;
+        font-family: "Raleway";
+        color: #54779d;
+    }
+</style>
+<html>
+<body>
+<h3 align="left" style="margin-left: 20px; font-size: 25px">Запишитесь на прием онлайн!</h3>
+<link rel="stylesheet" href="style.css">
+
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+<fieldset>
+    <legend>Контактная информация</legend>
+    <p>Фамилия: <input type="Text" name="last_name" size=20  value="Петров" id="last_name"></p>
+    <p>Имя: <input type="Text" name="name" size=20  value="Петр" id="name"></p>
+    <p>Контактный телефон: <input type="Text" name="phone" size=20  value="89705621234"></p>
+</fieldset>
+
+<fieldset>
+    <legend>Отделения клиники</legend>
+    <p>Выберите специалиста:</p>
+    <p><input type="Radio" name="service" checked id="analyzes" value="Лаборатория анализов"> Лаборатория анализов</p>
+    <p><input type="Radio" name="service" id="cardiology"  value="Кардиология">Кардиология</p>
+    <p><input type="Radio" name="service" id="surgery"  value="Хирургия">Хирургия</p>
+    <p><input type="Radio" name="service" id="therapy" value="Терапия">Терапия</p>
+    <p><input type="Radio" name="service" id="visual diagnosis" value="Визуальная диагностика" >Визуальная диагностика</p>
+</fieldset>
+
+<fieldset>
+    <legend>Тип приема</legend>
+    <p>Как Вам удобнее провести прием?
+        <link rel="stylesheet" href="style.css">
+        <select name="options">
+            <OPTION value="Прием в клинике">Прием в клинике</OPTION>
+            <OPTION value="Выезд на дом">Выезд на дом</OPTION>
+        </select>
+    </p>
+</fieldset>
+
+<fieldset>
+    <legend>Дата и время приема</legend>
+    <p>Дата: <input type="date" name="user_date"  value='2000-01-01' id="date"></p>
+    <p>Выберите время приема
+        <link rel="stylesheet" href="style.css">
+        <select name="time" id="time">
+            <OPTION value="10.00">10.00</OPTION>
+            <OPTION value="11.00">11.00</OPTION>
+            <OPTION value="12.00">12.00</OPTION>
+            <OPTION value="13.00">13.00</OPTION>
+            <OPTION value="14.00">14.00</OPTION>
+            <OPTION value="15.00">15.00</OPTION>
+            <OPTION value="16.00">16.00</OPTION>
+        </select>
+    </p>
+
+</fieldset>
+
+<fieldset>
+    <legend>Ваша запись</legend>
+    <p>
+    <p id="last_nameShow"></p>
+    <p id="nameShow"></p>
+    <p id="dateShow"></p>
+    <p id="serviceShow"></p>
+    </p>
+</fieldset>
+
+    <input type="hidden" name="function"  value="page">
+    <input type="hidden" name="page_id"  value="3">
+
+    <p>
+        <input type="Submit" name="submit"  value="Сформировать запись" onclick="showElements()">
+    </p>
+</form>
+</body>
+<script src="form.js"></script>
+</html>

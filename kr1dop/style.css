@@ -15,3 +15,12 @@ input {
     text-align: center;
     width: 250px;
 }
+
+.select select{
+    background-color: white;
+    border-color: #b1c9e8;
+    border-radius: 7px;
+    font-family: Raleway;
+    font-color: #4184e7;
+    text-align: center;
+}

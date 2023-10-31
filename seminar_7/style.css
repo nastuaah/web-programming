@@ -1,0 +1,23 @@
+fieldset{
+    background-color: white;
+    border-color: #b1c9e8;
+    border-radius: 7px;
+    font-family: Raleway;
+    text-align: left;
+    width: 1000px;
+}
+legend{
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+input {
+    background-color: white;
+    border-color: #b1c9e8;
+    border-radius: 7px;
+    font-family: Raleway;
+    font-color: #4184e7;
+    text-align: left;
+    width: fit-content;
+}
