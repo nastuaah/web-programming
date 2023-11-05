@@ -45,8 +45,26 @@ input {
 li{
     font-family: Qestero;
     text-align: left;
+    margin-left: 10px;
 }
 ul{
     font-family: Qestero;
     text-align: left;
+    margin-left: 10px;
 }
+label {
+  font-family: Qestero;
+  font-size: 15px;
+    color: #603703;
+  padding-right: 10px;
+}
+
+select {
+  font-size: 0.9rem;
+  padding: 5px;
+    background-color: transparent;
+    border-color: #603703;
+    border-radius: 7px;
+}
+
+

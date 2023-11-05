@@ -29,11 +29,12 @@
     <th colspan="2" style="font-size: 50px; text-align: left; height: 60px">Sign up for our candle making workshop</th>
 </tr>
 <tr>
-    <th><img src="classes1.jpg" style="width: 350px; height: 450px"></th>
+    <th><img src="classes1.png" style="width: 350px; height: 450px"></th>
     <th rowspan="2" style="margin-left: 60px; margin-top: 0px">
-    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_self" method="get" style="text-align: center; margin-left: 30px">
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
 <fieldset style="text-align: left">
     <legend>Contact info</legend>
+    <p>For saving: <input type="Text"  name="q" value="search"></p>
     <p>Surname: <input type="Text" name="last_name" size=20  value="Khomenko" id="last_name"></p>
     <p>Name: <input type="Text" name="name" size=20  value="Anastasia" id="name"></p>
     <p>Phone number: <input type="Text" name="phone" size=20  value="89705621234"></p>
@@ -44,15 +45,16 @@
         <input type="Submit" name="submit"  value="Save info">
     </p>
     </form>
-    <br> <img src="classes2.jpg" width="515" height="700"></br>
+    <br> <img src="classes2.png" width="515" height="700"></br>
 
 </th>
 </tr>
 <tr>
 <th style="margin-top: 10px">
-<form action="https://www.bing.com/search?" id="UserEnter1" name="UserEnter" target="_self" method="get">
-<fieldset style="margin-top: 20px; height: 400px">
+<form action="https://www.bing.com/search?" id="UserEnter1" name="UserEnter" target="_blank">
+<fieldset style="margin-top: 20px; height: 550px">
     <legend>Attend a class</legend>
+    <p>For signing: <input type="Text"  name="q" value="search"></p>
     <p>Name: <input type="Text" name="name" size=20  value="Anastasia" id="name1"></p>
     <p>Password: <input type="password" name="password" size=20  value="qw1246" id="password"></p>
     <p>Choose day: <input type="date" name="user_date"  value='2000-01-01' id="date2"></p>
@@ -70,6 +72,11 @@
             <OPTION value="diffuser">diffuser</OPTION>
         </select>
     </p>
+        <p>Choose type: </br>
+        <br> <input type="Checkbox" name="type1"  value="1" checked>Individual </br>
+        <br> <input type="Checkbox"  name="type2"   value="2" checked>Group </br>
+    </p>
+
 </fieldset>
 
     <input type="hidden" name="function"  value="page">
@@ -79,10 +86,7 @@
         <input type="Submit" name="submit"  value="Create a sign">
     </p>
 </form>
-    <br> </br>
-    <br> </br>
-    <br> </br>
-    <br> </br>
+
     </th>
 </tr>
 </table>
