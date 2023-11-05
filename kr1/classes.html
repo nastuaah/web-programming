@@ -34,12 +34,12 @@
     <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
 <fieldset style="text-align: left">
     <legend>Contact info</legend>
-    <p>For saving: <input type="Text"  name="q" value="search"></p>
     <p>Surname: <input type="Text" name="last_name" size=20  value="Khomenko" id="last_name"></p>
     <p>Name: <input type="Text" name="name" size=20  value="Anastasia" id="name"></p>
     <p>Phone number: <input type="Text" name="phone" size=20  value="89705621234"></p>
     <p>Email: <input type="Text" name="phone" size=20  value="nastuaah"></p>
     <p>Today: <input type="date" name="user_date"  value='2023-11-08' id="date1"></p>
+    <p> <input type="hidden"  name="q" value="search"></p>
 </fieldset>
     <p>
         <input type="Submit" name="submit"  value="Save info">
@@ -52,9 +52,8 @@
 <tr>
 <th style="margin-top: 10px">
 <form action="https://www.bing.com/search?" id="UserEnter1" name="UserEnter" target="_blank">
-<fieldset style="margin-top: 20px; height: 550px">
+<fieldset style="margin-top: 20px; height: 530px">
     <legend>Attend a class</legend>
-    <p>For signing: <input type="Text"  name="q" value="search"></p>
     <p>Name: <input type="Text" name="name" size=20  value="Anastasia" id="name1"></p>
     <p>Password: <input type="password" name="password" size=20  value="qw1246" id="password"></p>
     <p>Choose day: <input type="date" name="user_date"  value='2000-01-01' id="date2"></p>
@@ -76,6 +75,7 @@
         <br> <input type="Checkbox" name="type1"  value="1" checked>Individual </br>
         <br> <input type="Checkbox"  name="type2"   value="2" checked>Group </br>
     </p>
+     <p><input type="hidden"  name="q" value="search"></p>
 
 </fieldset>
 
