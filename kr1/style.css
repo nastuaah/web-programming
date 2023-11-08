@@ -67,4 +67,35 @@ select {
     border-radius: 7px;
 }
 
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+
+.dropdown-options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  background-color: #e1ded6;
+  border-radius:5px;
+}
+
+.dropdown:hover .dropdown-options {
+  display: block;
+}
+
+.dropdown-options a {
+  display: block;
+  color: #603703;
+  padding: 5px;
+  text-decoration: none;
+  padding:20px 40px;
+}
+
+.dropdown-options a:hover {
+  color: #603703;
+  background-color: #e1ded6;
+  border-radius:5px;
+}
 
