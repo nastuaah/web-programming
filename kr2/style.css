@@ -1,0 +1,93 @@
+a{
+    color: #846e61;
+    text-decoration: none;
+}
+figure {
+    border: transparent;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 250px;
+    margin: auto;
+}
+
+figcaption {
+    background-color: transparent;
+    color: #846e61;
+    padding: 3px;
+    text-align: center;
+}
+fieldset{
+    background-color: transparent;
+    border-color: #846e61;
+    border-decoration: none;
+    border-radius: 7px;
+    font-family: Qestero;
+    text-align: left;
+    width: 500px;
+}
+legend{
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+input {
+    background-color: transparent;
+    border-color: #846e61;
+    border-decoration: none;
+    border-radius: 7px;
+    font-family: Qestero;
+    font-color: #846e61;
+    text-align: left;
+    width: fit-content;
+}
+li{
+    font-family: Qestero;
+    text-align: left;
+    margin-left: 10px;
+}
+ul{
+    font-family: Qestero;
+    text-align: left;
+    margin-left: 10px;
+}
+label {
+  font-family: Qestero;
+  font-size: 15px;
+    color: #603703;
+  padding-right: 10px;
+}
+
+.container-fluid{
+    background-color: #e1ded6;
+}
+th{
+    text-align: center;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.form-control{
+    background-color: #e1ded6;
+    border-color: #e1ded6;
+    color: #846e61;
+}
+button{
+    border-color: #846e61;
+    background-color: #e1ded6;
+    color: #846e61;
+}
+.form-select{
+    background-color: #e1ded6;
+    border-color: #e1ded6;
+}
+.form-check-label{
+    color: #846e61;
+}
+input{
+    color: #846e61;
+}
+label{
+    color: #846e61;
+}

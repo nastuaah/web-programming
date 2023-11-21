@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Кодировка веб-страницы -->
+  <meta charset="utf-8">
+  <!-- Настройка viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Classes</title>
+  <!-- Bootstrap CSS (jsDelivr CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Bootstrap Bundle JS (jsDelivr CDN) -->
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</head>
+<style>
+    body{
+        background-color: #d3cec2;
+        font-family: "Qestero";
+        color: #846e61;
+    }
+    table{
+        border-color:#d3cec2;
+    }
+</style>
+<link rel="stylesheet" href="style.css">
+<body>
+<nav class="navbar navbar-expand-lg navbar-light"; style="font-size: 17px; text-decoration-color: #846e61">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">See Soul</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link" href="homepage.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="catalogue.html">Catalogue</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="info.html" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Info
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="info.html">About us</a></li>
+            <li><a class="dropdown-item" href="https://hyggeland.ru/shop/?utm_source=yandex&utm_medium=cpc&utm_campaign=Tovarnaya_kampaniya_hyggeland_ru&utm_content=4884080082%7C15025887578&utm_term=---autotargeting&yclid=8732216843480334335">Materials</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="collections.html">Collections</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="classes.html" style="font-style: italic">Classes</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<table align="right" border=1 bordercolor="transparent" width="97%" cellpadding="1" cellspacing="1" style="margin-top: 10px; margin-left: 100px">
+<tr>
+    <th colspan="2" style="font-size: 50px; text-align: left; height: 60px">Sign up for our candle making workshop</th>
+</tr>
+<tr>
+    <th><img src="cl1.jpg" style="width: 350px; height: 450px"></th>
+
+    <th rowspan="2" style="margin-left: 60px; margin-top: 0px">
+    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+<fieldset style="text-align: left">
+    <legend>Contact info</legend>
+<div class="form-floating mb-3 mt-3">
+  <input type="text" class="form-control" id="surname" placeholder="Enter surname" name="surname">
+  <label for="surname">Surname</label>
+</div>
+<div class="form-floating mb-3 mt-3">
+  <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+  <label for="name">Name</label>
+</div>
+<div class="form-floating mt-3 mb-3">
+  <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+  <label for="email">Email</label>
+</div>
+<div class="form-floating mt-3 mb-3">
+  <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+  <label for="pwd">Password</label>
+</div>
+<div class="form">
+  <input type="date" class="form-control" id="date" placeholder="Enter date" name="date">
+  <label for="date"></label>
+</div>
+     <p><input type="hidden"  name="q" value="search"></p>
+</fieldset>
+    <p>
+        <input type="Submit" name="submit"  value="Save info" style="background-color: #e1ded6; border-color: #846e61; color: #846e61; border-inline-color: #846e61">
+    </p>
+    </form>
+    <br> <img src="cl4.jpg" width="515" height="600" style="margin-left: -60px"></br>
+
+</th>
+</tr>
+<tr>
+<th style="margin-top: 10px">
+    <form action="https://www.bing.com/search?" id="UserEnter1" name="UserEnter" target="_blank">
+<fieldset style="text-align: left; margin-left: 20px">
+    <legend style="font-size: 20px; font-style: normal">Sign up for a class</legend>
+    <div class="form-floating mb-3 mt-3">
+  <input type="text" class="form-control" id="name1" placeholder="Enter name" name="name">
+  <label for="name">Name</label>
+</div>
+<div class="form-floating mt-3 mb-3">
+  <input type="password" class="form-control" id="pwd1" placeholder="Enter password" name="pswd">
+  <label for="pwd">Password</label>
+</div>
+<div class="form">
+  <input type="date" class="form-control" id="date1" placeholder="Enter date" name="date">
+  <label for="date"></label>
+</div>
+<div class="form">
+  <input type="number" class="form-control" id="number" placeholder="Number of guests" name="number">
+  <label for="number"></label>
+</div>
+     <p>Choose time</p>
+<div class="form-check">
+  <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked>10.00-12.00
+  <label class="form-check-label" for="radio1"></label>
+</div>
+<div class="form-check">
+  <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">13.00-15.00
+  <label class="form-check-label" for="radio2"></label>
+</div>
+<div class="form-check">
+  <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option2">16.00-18.00
+  <label class="form-check-label" for="radio2"></label>
+</div>
+    <p>Choose type of class</p>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="check1" name="option1" value="something" checked>
+  <label class="form-check-label">Individual</label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" id="check2" name="option1" value="something" checked>
+  <label class="form-check-label">Group</label>
+</div>
+    <p>Choose master-class</p>
+<select class="form-select">
+  <option>candle</option>
+  <option>figure candle</option>
+  <option>diffuser</option>
+</select>
+     <p><input type="hidden"  name="q" value="search"></p>
+</fieldset>
+    <p>
+        <input type="Submit" name="submit"  value="Save info" style="background-color: #e1ded6; border-color: #846e61; color: #846e61; border-inline-color: #846e61">
+    </p>
+    </form>
+    </th>
+</tr>
+</table>
+</body>
+</html>
