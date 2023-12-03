@@ -61,6 +61,7 @@ label {
 
 .container-fluid{
     background-color: #e1ded6;
+    max-height: 100px;
 }
 th{
     text-align: center;
