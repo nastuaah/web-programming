@@ -163,8 +163,11 @@ table {
   color: #846e61;
 }
 
-@media screen and (max-width: 600px) {
-  .table-wrap {
-    overflow-y: scroll;
-  }
+@media screen and (max-width: 400px) {
+    .table-wrap {
+        overflow-y: scroll;}
+    #primary tr td {
+        display: block;}
+    #primary tr td, #primary th  {
+        display:block;}
 }
