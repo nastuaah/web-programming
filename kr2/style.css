@@ -155,29 +155,16 @@ table {
     background-color: transparent;
     color: transparent;
 }
-/* Простой CSS для flexbox-таблиц на мобильных устройствах */
-@media(max-width: 800px) {
-    table thead {
-        left: -9999px;
-        position: absolute;
-        visibility: hidden;
-    }
-    table tr {
-        border-bottom: 0;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-bottom: 40px;
-    }
-    table td {
-        border: 1px solid;
-        margin: 0 -1px -1px 0;
-        padding-top: 35px; /* дополнительный отступ для предотвращения склеивания заголовков */
-        position: relative;
-        width: 50%;
-    }
-    /* Отображение span заголовков */
-    table td span {
-        display: block;
-    }
+.table-wrap {
+  text-align: center;
+  display: inline-block;
+  background-color: #d3cec2;
+  padding: 2rem 2rem;
+  color: #846e61;
+}
+
+@media screen and (max-width: 600px) {
+  .table-wrap {
+    overflow-y: scroll;
+  }
 }
