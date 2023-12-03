@@ -61,7 +61,7 @@ label {
 
 .container-fluid{
     background-color: #e1ded6;
-    max-height: 400px;
+    max-height: 700px;
 }
 th{
     text-align: center;
@@ -155,19 +155,22 @@ table {
     background-color: transparent;
     color: transparent;
 }
-.table-wrap {
-  text-align: center;
-  display: inline-block;
-  background-color: #d3cec2;
-  padding: 2rem 2rem;
-  color: #846e61;
-}
 
 @media screen and (max-width: 400px) {
-    .table-wrap {
-        overflow-y: scroll;}
-    #primary tr td {
-        display: block;}
-    #primary tr td, #primary th  {
-        display:block;}
+ .container table thead {
+    display: none;}
+
+.container table tr {
+    display: block;}
+
+.container table td {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;}
+
+ .container table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    margin-right: 20px;
+}
 }
