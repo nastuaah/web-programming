@@ -11,20 +11,10 @@
   <!-- Bootstrap Bundle JS (jsDelivr CDN) -->
   <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </head>
-<style>
-    body{
-        background-color: #d3cec2;
-        font-family: "Qestero";
-        color: #603703;
-    }
-    table{
-        border-color: #d3cec2;
-        color: #d3cec2;
-    }
-</style>
+<link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="style.css">
 <body>
-<nav class="navbar navbar-expand-lg navbar-light"; style="font-size: 17px; text-decoration-color: #442804">
+<nav class="navbar navbar-expand-lg navbar-light"; style="font-size: 17px; text-decoration-color: #846e61">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">See Soul</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +34,7 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
             <li><a class="dropdown-item" href="info.html">About us</a></li>
-            <li><a class="dropdown-item" href="https://hyggeland.ru/shop/?utm_source=yandex&utm_medium=cpc&utm_campaign=Tovarnaya_kampaniya_hyggeland_ru&utm_content=4884080082%7C15025887578&utm_term=---autotargeting&yclid=8732216843480334335">Materials</a></li>
+            <li><a class="dropdown-item" href="api.html">Shop</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="collections.html">Collections</a></li>
           </ul>
@@ -56,37 +46,13 @@
     </div>
   </div>
 </nav>
-<table align="center" border=1 bordercolor="transparent" width="100%" cellpadding="1" cellspacing="1" style="margin-top: 10px">
-    <tr>
-        <th>
-        <figure> <a href="photo.html"><img src="candle1.jpg"; width="250px"; height="300px" alt="Изображение не найдено" title="Candles">
-        <figcaption> Candles</figcaption> </a></figure>
-        </th>
-        <th>
-        <figure> <img src="sashe.jpg"; width="250px"; height="300px" alt="Изображение не найдено" title="Aromasashe">
-        <figcaption> Aromasahse</figcaption> </figure>
-        </th>
-        <th>
-        <figure> <img src="dif3.jpg"; width="250px"; height="300px" alt="Изображение не найдено" title="Diffuser">
-        <figcaption> Diffuser</figcaption> </figure>
-        </th>
-    </tr>
-    <tr>
-        <th>
-            <h2 id="C5" style="font-size: 17px">
-        <figure> <img src="vases.jpg"; width="250px"; height="300px" alt="Изображение не найдено" title="Vases">
-        <figcaption> Vases</figcaption> </figure>
-            </h2>
-        </th>
-        <th>
-        <figure> <img src="candle2.jpg"; width="250px"; height="300px" alt="Изображение не найдено" title="Figure candles">
-        <figcaption> Figure candles</figcaption> </figure>
-        </th>
-        <th>
-        <figure> <img src="palosanto.jpg"; width="250px"; height="300px" alt="Изображение не найдено" title="Palo Santo">
-        <figcaption> Palo Santo</figcaption> </figure>
-        </th>
-    </tr>
-</table>
+<div class="card-expand-st">
+        <div class="card-img-top">
+                <input name="q" type="hidden" value="search">
+                <ul class="d-flex flex-row justify-content-around flex-wrap" id="node_for_insert">
+                </ul>
+        </div>
+</div>
+<script src="catalogue.js"></script>
 </body>
 </html>

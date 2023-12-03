@@ -1,0 +1,72 @@
+[
+ {
+    "albumId": 1,
+    "id": 1,
+    "title": "MIDNIGHT GARDEN",
+    "img": "cs1.jpg",
+    "price": "30"
+  },
+  {
+    "albumId": 1,
+    "id": 2,
+    "title": "LAVANDA",
+    "img": "cs2.jpg",
+    "price": "35"
+  },
+  {
+    "albumId": 1,
+    "id": 3,
+    "title": "BROOKLYN",
+    "img": "cs3.jpg",
+    "price": "27"
+  },
+  {
+    "albumId": 1,
+    "id": 4,
+    "title": "CLEAN",
+    "img": "cs4.jpg",
+    "price": "25"
+  },
+  {
+    "albumId": 1,
+    "id": 5,
+    "title": "GROVE",
+    "img": "cs5.jpg",
+    "price": "33"
+  },
+  {
+    "albumId": 1,
+    "id": 6,
+    "title": "accusamus ea aliquid et amet sequi nemo",
+    "title": "YOGA MIST",
+    "img": "cs6.jpg",
+    "price": "28"
+  },
+  {
+    "albumId": 1,
+    "id": 7,
+    "title": "TOBACCO & VANILLA",
+    "img": "cs7.jpg",
+    "price": "40"
+  },
+  {
+    "albumId": 1,
+    "id": 8,
+    "title": "LAVANDA & CEDAR",
+    "img": "cs8.jpg",
+    "price": "36"
+  },
+  {
+    "albumId": 1,
+    "id": 9,
+    "title": "OAKMOSS",
+    "img": "cs9.jpg",
+    "price": "28"
+  },
+  {
+    "albumId": 1,
+    "id": 10,
+    "title": "SANDALWOOD",
+    "img": "cs10.jpg",
+    "price": "30"
+  }]

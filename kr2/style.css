@@ -75,7 +75,6 @@ th{
 }
 button{
     border-color: #846e61;
-    background-color: #e1ded6;
     color: #846e61;
 }
 .form-select{
@@ -90,4 +89,94 @@ input{
 }
 label{
     color: #846e61;
+}
+body{
+    background-color: #d3cec2;
+    font-family: "Qestero";
+    color: #846e61;
+    }
+table {
+    border-color: #d3cec2;
+    }
+.card-expand-lg{
+    border-color: #d3cec2;
+    font-family: "Qestero";
+}
+.card-img-top{
+    background-color: #d3cec2;
+    font-family: "Qestero";
+    color: #846e61;
+ }
+.btn btn-primary{
+    background-color: #d3cec2;
+    font-family: "Qestero";
+    color: #846e61;
+    text-align: center;
+}
+.d-flex flex-row justify-content-around flex-wrap bg-light{
+    background-color: #d3cec2;
+    font-family: "Qestero";
+    color: #846e61;
+}
+.form{
+    background-color: #d3cec2;
+    border-color:#d3cec2 ;
+}
+.d-flex flex-column m-1 p-3 border bg-body{
+    background-color: #d3cec2;
+    font-family: "Qestero";
+    border-color: #846e61;
+    border-radius: 30px;
+}
+.align-self-center{
+    background-color: #d3cec2;
+    font-family: "Qestero";
+    color: #846e61;
+    height: 280px;
+
+}
+.navbar navbar-expand-lg navbar-light{
+    height: 60px;
+}
+.clearfix {
+  clear: both;
+}
+.input{
+    background-color: #d3cec2;
+    font-family: "Qestero";
+    color: #846e61;
+}
+.d-flex flex-column m-1 p-1 border bg-body{
+    background-color: transparent;
+    color: transparent;
+}
+.d-flex flex-column m-1 p-1 border card-title{
+    background-color: transparent;
+    color: transparent;
+}
+/* Простой CSS для flexbox-таблиц на мобильных устройствах */
+@media(max-width: 800px) {
+    table thead {
+        left: -9999px;
+        position: absolute;
+        visibility: hidden;
+    }
+    table tr {
+        border-bottom: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+    table td {
+        border: 1px solid;
+        margin: 0 -1px -1px 0;
+        padding-top: 35px; /* дополнительный отступ для предотвращения склеивания заголовков */
+        position: relative;
+        width: 50%;
+    }
+    /* Отображение span заголовков */
+    table td span {
+        display: block;
+    }
 }
