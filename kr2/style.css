@@ -184,4 +184,35 @@ table {
          max-width: 500px;
      }
 }
-
+.block2{
+    margin-left: 580px;
+    margin-top: -500px;
+}
+.block3{
+    margin-left: 550px;
+}
+.block4{
+    margin-left: 580px;
+}
+.block5{
+    margin-left: 590px;
+}
+.block6{
+    margin-top: -250px;
+    margin-left: 565px;
+}
+.block7{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.block9{
+    margin-top: -330px;
+    margin-left: 20px;
+}
+.block10{
+   margin-left: 20px;
+}
+.block11{
+    margin-top: 10px;
+   margin-left: 20px;
+}
