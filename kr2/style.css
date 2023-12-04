@@ -1,5 +1,5 @@
 a{
-    color: #846e61;
+    color: #565250;
     text-decoration: none;
 }
 figure {
@@ -13,13 +13,13 @@ figure {
 
 figcaption {
     background-color: transparent;
-    color: #846e61;
+    color: #565250;
     padding: 3px;
     text-align: center;
 }
 fieldset{
     background-color: transparent;
-    border-color: #846e61;
+    border-color: #565250;
     border-decoration: none;
     border-radius: 7px;
     font-family: Qestero;
@@ -34,11 +34,11 @@ legend{
 }
 input {
     background-color: transparent;
-    border-color: #846e61;
+    border-color: #565250;
     border-decoration: none;
     border-radius: 7px;
     font-family: Qestero;
-    font-color: #846e61;
+    font-color: #565250;
     text-align: left;
     width: fit-content;
 }
@@ -55,7 +55,7 @@ ul{
 label {
   font-family: Qestero;
   font-size: 15px;
-    color: #603703;
+    color: #565250;
   padding-right: 10px;
 }
 
@@ -72,29 +72,29 @@ th{
 .form-control{
     background-color: #e1ded6;
     border-color: #e1ded6;
-    color: #846e61;
+    color: #565250;
 }
 button{
-    border-color: #846e61;
-    color: #846e61;
+    border-color: #565250;
+    color: #565250;
 }
 .form-select{
     background-color: #e1ded6;
-    border-color: #e1ded6;
+    border-color: #565250;
 }
 .form-check-label{
-    color: #846e61;
+    color: #565250;
 }
 input{
-    color: #846e61;
+    color: #565250;
 }
 label{
-    color: #846e61;
+    color: #565250;
 }
 body{
     background-color: #d3cec2;
     font-family: "Qestero";
-    color: #846e61;
+    color: #565250;
     }
 table {
     border-color: #d3cec2;
@@ -106,18 +106,18 @@ table {
 .card-img-top{
     background-color: #d3cec2;
     font-family: "Qestero";
-    color: #846e61;
+    color: #565250;
  }
 .btn btn-primary{
     background-color: #d3cec2;
     font-family: "Qestero";
-    color: #846e61;
+    color: #565250;
     text-align: center;
 }
 .d-flex flex-row justify-content-around flex-wrap bg-light{
     background-color: #d3cec2;
     font-family: "Qestero";
-    color: #846e61;
+    color: #565250;
 }
 .form{
     background-color: #d3cec2;
@@ -126,13 +126,13 @@ table {
 .d-flex flex-column m-1 p-3 border bg-body{
     background-color: #d3cec2;
     font-family: "Qestero";
-    border-color: #846e61;
+    border-color: #565250;
     border-radius: 30px;
 }
 .align-self-center{
     background-color: #d3cec2;
     font-family: "Qestero";
-    color: #846e61;
+    color: #565250;
     height: 280px;
 
 }
@@ -145,7 +145,7 @@ table {
 .input{
     background-color: #d3cec2;
     font-family: "Qestero";
-    color: #846e61;
+    color: #565250;
 }
 .d-flex flex-column m-1 p-1 border bg-body{
     background-color: transparent;
@@ -156,34 +156,6 @@ table {
     color: transparent;
 }
 
-@media screen and (max-width: 600px) {
- .container table thead {
-    display: none;}
-
-.container table tr {
-    display: block;}
-
-.container table td {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;}
-
- .container table td::before {
-    content: attr(data-label);
-    font-weight: bold;
-    margin-right: 20px;
-}
-     .col-25, .col-75, input[type=submit] {
-        width: 100%;
-        margin-top: 0;
-    }
-     .fieldset{
-         max-width: 500px;
-     }
-     .form{
-         max-width: 500px;
-     }
-}
 .block2{
     margin-left: 580px;
     margin-top: -500px;
@@ -215,4 +187,67 @@ table {
 .block11{
     margin-top: 10px;
    margin-left: 20px;
+}
+.container2{
+    margin-left: 20px;
+}
+.form1{
+    margin-left: 650px;
+    margin-top: -1200px;
+}
+.form2{
+    margin-left: 630px;
+}
+@media screen and (max-width: 600px) {
+.form1{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.form2{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.block2{
+    margin-left: 20px;
+     margin-top: 20px;
+}
+.block3{
+    margin-left: 20px;
+     margin-top: 20px;
+}
+.block4{
+    margin-left: 20px;
+     margin-top: 20px;
+}
+.block5{
+    margin-left: 20px;
+     margin-top: 20px;
+}
+.block6{
+    margin-left: 20px;
+     margin-top: 20px;
+}
+.block7{
+    margin-left: 20px;
+     margin-top: 20px;
+}
+.block8{
+    margin-left: 20px;
+     margin-top: 20px;
+}
+.block9{
+    margin-left: 20px;
+     margin-top: 20px;
+}
+.block10{
+    margin-left: 20px;
+     margin-top: 20px;
+}
+.block11{
+    margin-left: 20px;
+     margin-top: 20px;
+}
+.photo{
+    width: 600px;
+}
 }
