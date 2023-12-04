@@ -5,7 +5,7 @@ async function getResponce1() {
     let content = await responce.text()
     console.log(content)
     content = JSON.parse(content)
-    content = content.splice(0, 9)
+    content = content.splice(0, 6)
     console.log(content)
     let key
     for (key in content) {
@@ -17,7 +17,7 @@ async function getResponce1() {
     for (key in content) {
         node_for_insert.innerHTML += `
         <li style="width: 280px" class="d-flex flex-column m-1 p-1">
-        <img style="width: 280px; height: 350px" class="align-self-center" src=${content[key].img}>
+        <img style="width: 280px; height: 350px" class="align-self-center" src=${content[key].img} title=${content[key].imgTitle}>
         <h5 class="card-title" style="text-align: center">${content[key].title}</h5>
         <input type="hidden" name= "vendor_code" value=${content[key].vendor_code}>
         </li>

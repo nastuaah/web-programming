@@ -3,36 +3,42 @@
     "albumId": 3,
     "id": 1,
     "title": "Candles",
-    "img": "candle1.jpg"
+    "img": "candle1.jpg",
+    "imgTitle": "Candles"
   },
   {
     "albumId": 3,
     "id": 2,
     "title": "Aromasashe",
-    "img": "sashe.jpg"
+    "img": "sashe.jpg",
+    "imgTitle": "Aromasashe"
   },
   {
     "albumId": 3,
     "id": 3,
     "title": "Diffuser",
-    "img": "dif3.jpg"
+    "img": "dif3.jpg",
+    "imgTitle": "Diffuser"
   },
   {
     "albumId": 3,
     "id": 4,
     "title": "Vases",
-    "img": "vases.jpg"
+    "img": "vases.jpg",
+    "imgTitle": "Vases"
   },
   {
     "albumId": 3,
     "id": 5,
     "title": "Figure candles",
-    "img": "candle2.jpg"
+    "img": "candle2.jpg",
+    "imgTitle": "Figure candles"
   },
   {
     "albumId": 3,
     "id": 6,
     "title": "Palo santo",
-    "img": "palosanto.jpg"
+    "img": "palosanto.jpg",
+    "imgTitle": "Palo santo"
   }
   ]

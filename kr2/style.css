@@ -156,7 +156,7 @@ table {
     color: transparent;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
  .container table thead {
     display: none;}
 
@@ -173,4 +173,15 @@ table {
     font-weight: bold;
     margin-right: 20px;
 }
+     .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+     .fieldset{
+         max-width: 500px;
+     }
+     .form{
+         max-width: 500px;
+     }
 }
+
