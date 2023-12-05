@@ -172,6 +172,7 @@ table {
 .block6{
     margin-top: -250px;
     margin-left: 565px;
+    width: 650px;
 }
 .block7{
     margin-top: 80px;
@@ -198,11 +199,15 @@ table {
 .form2{
     margin-left: 630px;
 }
+.container2{
+    width: 600px;
+    height: 1200px;
+}
 
 @media screen and (max-width: 600px) {
 .container2{
-    height: 400px;
-    width: 100px;
+    height: 100px;
+    width: 200px;
 }
 .form1{
     margin-left: 20px;
@@ -213,7 +218,7 @@ table {
 }
 .block2{
     margin-left: 20px;
-     margin-top: 20px;
+     margin-top: -600px;
 }
 .block3{
     margin-left: 20px;
@@ -259,6 +264,6 @@ table {
 }
 .photo{
   object-fit: cover;
-  width: 200px;
+  width: 80px;
 }
 }
