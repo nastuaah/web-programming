@@ -248,22 +248,16 @@ table {
 }
 .block1{
   object-fit: cover;
-  width: 200px;
-  height: 300px;
+  width: 80px;
+  height: 180px;
 }
 .block6{
   object-fit: cover;
-  width: 200px;
-  height: 300px;
+  width: 80px;
+  height: 180px;
 }
 .photo{
   object-fit: cover;
   width: 200px;
-}
-.container-fluid{
-    height:400px;
-}
-.navbar navbar-expand-lg navbar-light{
-    height:400px;
 }
 }
