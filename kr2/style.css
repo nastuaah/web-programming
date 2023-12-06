@@ -259,7 +259,8 @@ table {
   height: 180px;
 }
 .block6{
-  object-fit: cover;
+  margin-left: 20px;
+    margin-top: 20px;
   width: 80px;
   height: 180px;
 }
