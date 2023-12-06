@@ -158,28 +158,28 @@ table {
 
 .block2{
     margin-left: 580px;
-    margin-top: -900px;
+    margin-top: -500px;
 }
 .block3{
     margin-left: 550px;
 }
 .block4{
     margin-left: 580px;
+    margin-top: 20px;
 }
 .block5{
     margin-left: 590px;
 }
 .block6{
-    margin-top: 400px;
+    margin-top: -240px;
     margin-left: 565px;
-    width: 650px;
 }
 .block7{
-    margin-top: 80px;
+    margin-top: 60px;
     margin-left: 20px;
 }
 .block9{
-    margin-top: -330px;
+    margin-top: -400px;
     margin-left: 20px;
 }
 .block10{
@@ -243,7 +243,7 @@ table {
 }
 .block9{
     margin-left: 20px;
-     margin-top: 20px;
+     margin-top: 500px;
 }
 .block10{
     margin-left: 20px;
